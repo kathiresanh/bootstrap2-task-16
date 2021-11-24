@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<style>
+.container-fluid {
+    width: 70%;
+    height: 200%;
+    border:5px solid black;
+    margin-top: 30px;
+    background-image: linear-gradient(rgb(17, 219, 67),rgb(223, 210, 30));
+}
+
+h2 {
+  text-align: center;
+}
+h4 {
+  text-align: center;
+}
+
+.row {
+    width: 80%;
+    height: 380px;
+    margin-left: 80px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border: 5px solid black;
+    background-image: linear-gradient(rgb(84, 16, 245),rgb(231, 25, 197));
+    
+}
+
+.tiledBackground {
+     background-image: url(images.jpg);
+    background-size: 290px 300px;
+    width: 100%px;
+     height: 80%;
+     margin-left: 50px;
+     border: 2px solid;
+    margin-top: 23px;
+            
+}
+.name{
+     margin-left: 30px;
+}
+#name{
+    font-weight: bolder;
+}       
+    
+#email{
+    font-weight: bolder;
+}
+#phonenumber{
+    font-weight: bolder;
+}
+#seats{
+    font-weight: bolder;
+}
+#number{
+    font-weight: bolder;
+}
+#submit{
+    background-color: rgb(207, 30, 113);
+    font-weight: 800;
+}
+#cancel{
+    background-color: rgb(56, 231, 100);
+    font-weight: 800;
+}
+</style>
+<body>
+    
+
+    <div class="container-fluid">
+        <h2><b>Event 1</b></h2>
+        <h4>Number available seats:23</h4>
+        <div class="row">
+            <div class="col-4">
+                <div class="tiledBackground">
+                </div>
+            </div>
+            <div class="col-8">
+                
+                <form style="text-align: center;"> 
+                    <br>
+                   
+                    <input type="text" placeholder="YourName" required><br><br>
+
+                    <input type="email" name="Email" id="email" placeholder="Email"><br><br>
+
+                   
+                    <input type="text" name="PhoneNumber" id="phonenumber"placeholder="phonenumber" ><br><br>
+
+                 
+                    <input type="number" name="Numberofseats" id="seats"placeholder = "number of seates"><br><br>
+
+                
+                    <input type="text" name="NumberofAttende 2" id="number"placeholder = "Number of Attende"><hr>
+
+                    <input type="submit" value="submit" id="submit">
+                    <input type="submit" value="cancel"id="cancel">
+
+
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+</html>
